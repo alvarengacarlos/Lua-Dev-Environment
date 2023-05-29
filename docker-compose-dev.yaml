@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  lua:
+    image: lua:5.4
+    container_name: lua    
+    working_dir: /home/lua/app/
+    volumes:
+      - ./:/home/lua/app/
