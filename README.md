@@ -7,7 +7,7 @@ This repository have a Docker Image and Docker Compose File to help you to devel
 docker image build --tag lua:5.4 .
 ```
 
-## Lua dev environment
+## Start dev environment
 - To start in the Lua dev environment you can run this command:
 ```bash
 docker compose -f docker-compose-dev.yaml run --rm --service-ports -u lua lua bash
